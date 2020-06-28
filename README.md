@@ -1,2 +1,2 @@
 # AI ML-UseCases
-For Artificial Intelligence and Machine Learning Use Cases
+This repository contains my Artificial Intelligence and Machine Learning projects
