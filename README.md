@@ -1,7 +1,9 @@
 # AI-ML-UseCases
 This repository contains my Artificial Intelligence and Machine Learning projects
 
-* My latest project - Face Mask Segmentation - Built a deep learning model using U-Net architecture to locate the face in an image. Underlying model in U-net architecture is MobileNet, which is already trained on imagenet dataset. With Transfer learning, model's training were faster. In this project, simple U-net model achieved higher dice-coefficient than complex U-net models. 
+* My latest project - Face Recognition - Pre-trained VGG face model is used to identify the personalities in "Aligned Face Dataset from Pinterest". PCA is used to reduce the embedding vector dimension and Support vector machine (SVM) is applied on top of PCA. Achieved a high accuracy of 95% on test set. An an output, model is able to successfully recognize the personalities from the dataset. 
+
+* Face Mask Segmentation - Built a deep learning model using U-Net architecture to locate the face in an image. Underlying model in U-net architecture is MobileNet, which is already trained on imagenet dataset. With Transfer learning, model's training were faster. In this project, simple U-net model achieved higher dice-coefficient than complex U-net models. 
 
 * Street View Housing Number Digit Recognition using Fully connected Neural Networks. Image augmentation is used to eliminate noise in the image, which resulted in  better accuracy. 
 
